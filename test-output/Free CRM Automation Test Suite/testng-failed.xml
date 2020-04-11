@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Free CRM Automation Test Suite]">
+  <test name="Free CRM App Test Cases">
+    <classes>
+      <class name="com.crm.qa.testcases.functionality1"/>
+      <class name="com.crm.qa.testcases.functionality2"/>
+    </classes>
+  </test> <!-- Free CRM App Test Cases -->
+  <test name="Free CRM App Test Cases(failed)">
+    <classes>
+      <class name="com.crm.qa.testcases.functionality2">
+        <methods>
+          <include name="functionality2Test1"/>
+          <include name="functionality2Test2"/>
+          <include name="functionality2Test3"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.functionality2 -->
+      <class name="com.crm.qa.testcases.functionality1">
+        <methods>
+          <include name="functionality1Test2"/>
+          <include name="afterClass"/>
+          <include name="functionality1Test3"/>
+          <include name="generateReport"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.functionality1 -->
+    </classes>
+  </test> <!-- Free CRM App Test Cases(failed) -->
+</suite> <!-- Failed suite [Free CRM Automation Test Suite] -->
